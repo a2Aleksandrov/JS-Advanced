@@ -1,2 +1,1 @@
-# JS-Advanced-
-Softuni courses
+SoftUni JS Advanced
