@@ -58,7 +58,7 @@ class CarDealership {
         if (criteria == 'horsepower') {
             this.soldCars.sort((a, b) => b.horsepower - a.horsepower);
         } else if (criteria == 'model') {
-            this.availableCars.sort((a, b) => a.model.localeCompare(b.model));
+            this.soldCars.sort((a, b) => a.model.localeCompare(b.model));
         } else {
             throw new Error('Invalid criteria!');
         }
